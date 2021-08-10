@@ -1,0 +1,37 @@
+.index .body {
+    height: 80vh;
+}
+
+h1 img {
+    width: 60px;
+}
+
+.index h1{
+    font-size: 35px;
+}
+
+.summary {
+    text-align: center;
+    font-size: 25px;
+    color: $title-color;
+    font-weight: bold;
+}
+.index .body-options {
+    display: flex;
+    justify-content: center;
+    img {
+        border: 3px solid black;
+        width: 40%;
+    }
+
+    h2{
+        font-size: 50px;
+        text-align: center;
+        padding: 10px 0;
+    } 
+}
+
+.index .all-socials {
+    display: flex;
+}
+

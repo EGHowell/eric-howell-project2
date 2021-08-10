@@ -1,0 +1,164 @@
+@media(max-width: 1620px) {
+    .arcs-body header img {
+        right: 100px;
+    }
+}
+
+@media(max-width: 1360px) {
+    .arcs-body {
+        .chapter-description {
+        width: 100%;
+        }
+        .body-options ul li {
+            width: 32%;
+            margin-top: 25px;
+        }
+        .body-options h2 {
+            padding: 0;
+        }
+        .chapters-gallery {
+            width: 80%;
+        }
+    }
+}
+
+@media(max-width: 865px) {
+    .arcs-body {
+        .body-options ul li {
+            width: 50%;
+        }
+        .chapters-gallery {
+            width: 100%;  
+        }
+       .jump-link p {
+           font-size: 20px;
+       }
+    }
+}
+
+@media (max-width: 720px) {
+    .arcs-body {
+        .header-logo {
+            width: 100%;
+            position: absolute;
+            bottom:0;
+            flex-direction: column;
+        }
+
+        .logo-desktop {
+            margin-right: auto;
+            width: 200px;
+        }
+
+        nav ul li a {
+            font-size: 20px;
+        }
+
+        .menu-container {
+        display: flex;
+        flex-direction: column-reverse;
+        }
+
+        .jump-link,
+        audio {
+        text-align: left;
+        position: relative;
+        top: 0;
+        left: 5px;
+        }
+
+        .body-options ul li {
+        width: 100%;
+        }
+
+        fieldset {
+            padding: 0.35em 0.75em 0.625em;
+        }
+
+        .post {
+            padding: 1rem;
+        }
+
+        select {
+            width: 230px;
+        }
+    }
+}
+
+@media(max-width: 580px) {
+    .arcs-body {
+        .chapters-gallery div {
+            flex-direction: column;
+          }
+          
+        .chapters-gallery div h2 {
+            width: 100%;
+            text-align: center;
+        }
+          
+        .chapter-title {
+            padding: 10px;
+            font-size: 2rem;
+        }
+          
+        .chapter-name {
+            padding-top: 0;
+            font-size: 1.2rem;
+        }
+        .jump-link {
+            p {
+                font-size: 15px;
+            }
+        }
+          
+        .api-img {
+            margin: auto;
+            width: 50%;
+        }
+
+        .footer-copyright {
+            padding-top: 20px;
+        }
+
+        .footer-socials {
+            display: block;
+        }
+
+        .social-box {
+            width: 100%;
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .arcs-body {
+        .chapters-gallery {
+            padding: 5px;
+        }
+
+        .chapter-description{
+            font-size: 15px;
+            margin: 0;
+            letter-spacing: 1px;
+            line-height: 17px;
+            padding: 20px;
+        }
+        
+        .previous,
+        .next {
+            width: 230px;
+        }
+
+        .post-title {
+            line-height: 1em; 
+            font-size: 1.5rem;      
+        }
+        
+        audio {
+            width: 120px;
+        }
+    }
+}
